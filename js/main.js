@@ -94,9 +94,9 @@
     return false;
   });
 
-  startGame();
+  // startGame();
 
-
+  // Score Board
   mit.score = 0;
 
   ui.score_board.css('width', canvas.width + 'px');
