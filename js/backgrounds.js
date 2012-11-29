@@ -346,7 +346,7 @@
       }
 
 
-      if (this.fps > 55) {
+      if (this.fps > 56) {
 
         // Draw Linear Gradient for real/pure BG (sky/water)
         ctx.save();
