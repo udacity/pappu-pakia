@@ -25,14 +25,19 @@
   };
 
   utils.intersect = function(bounds1, bounds2) {
-
-    return !(
-      bounds1.end_x < bounds2.start_x ||
-      bounds2.end_x < bounds1.start_x ||
-      bounds1.end_y < bounds2.start_y ||
-      bounds2.end_y < bounds1.start_y
-    );
-
+    if (bounds1.end_x < bounds2.start_x) {
+        return true;
+    }
+    if (bounds2.end_x < bounds1.start_x) {
+        return true;
+    }
+    if (bounds1.end_y < bounds2.start_y) {
+        return true;
+    }
+    if (bounds2.end_y < bounds1.start_y) {
+        return true;
+    }
+    return false;
   };
 
 }());
