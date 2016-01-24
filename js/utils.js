@@ -26,18 +26,18 @@
 
   utils.intersect = function(bounds1, bounds2) {
     if (bounds1.end_x < bounds2.start_x) {
-        return true;
+        return false;
     }
     if (bounds2.end_x < bounds1.start_x) {
-        return true;
+        return false;
     }
     if (bounds1.end_y < bounds2.start_y) {
-        return true;
+        return false;
     }
     if (bounds2.end_y < bounds1.start_y) {
-        return true;
+        return false;
     }
-    return false;
+    return true;
   };
 
 }());
