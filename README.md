@@ -20,7 +20,7 @@ Many thanks to Rishabh and Kushagrai for creating this awesome game.
 This HTML5 Game (Pappu Pakia) has been happily made for the
 [Github Game Off 2012](https://github.com/blog/1303-github-game-off).
 
-**[PLAY THE GAME HERE](http://khele.in/pappu-pakia/)**
+**[CLICK HERE TO PLAY THE GAME](http://khele.in/pappu-pakia/)**
 
 ### Credits
 
