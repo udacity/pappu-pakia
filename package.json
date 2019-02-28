@@ -1,0 +1,22 @@
+{
+  "name": "pappu-pakia",
+  "version": "1.0.0",
+  "description": "Projeto para estudo do GIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaanda/pappu-pakia.git"
+  },
+  "author": "Kaanda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaanda/pappu-pakia/issues"
+  },
+  "homepage": "https://github.com/kaanda/pappu-pakia#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
